@@ -1,0 +1,89 @@
+/* static/css/styles.css */
+
+
+/* Navigation styles */
+.nav-links {
+    float: left;
+    /* Align left section to the left */
+}
+
+.right-links {
+    float: right;
+    /* Align right section to the right */
+}
+
+
+.nav-links ul,
+.right-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li,
+.right-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav-links a,
+.right-links a {
+    text-decoration: none;
+    color: #375BDC;
+    font-weight: bold;
+}
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #585d74;
+}
+
+/* Header styles */
+header {
+    background-color: #375BDC;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #375BDC;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #375BDC;
+    color: #ffffff;
+}
